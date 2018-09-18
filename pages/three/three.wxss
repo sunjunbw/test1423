@@ -1,8 +1,0 @@
-/* pages/three/three.wxss */
-image{
-  width:750rpx;
-}
-
-.row{
-  display: flex;
-}

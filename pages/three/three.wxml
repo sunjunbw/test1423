@@ -1,9 +1,0 @@
-<import src="item.wxml" />
-<view>
-  <input bindinput='input' bindconfirm='add' value="{{msg}}"></input>
-<switch bindchange="switch2Change" checked='true'/>
-   <view wx:for="{{list}}" wx:if="{{flag}}" wx:key="{{index}}">
-        <template is="xm" data="{{...item,index}}"></template>
-   </view>
-     共完成{{count}}项
-</view>

@@ -1,8 +1,0 @@
-<!--pages/four/four.wxml-->
-<text>pages/four/four.wxml</text>
- <view wx:for="{{list}}" wx:key="{{item.id}}">
-   <view>
-      <image src="{{item.cover.origin}}"></image>
-
-    </view>
-</view> 
