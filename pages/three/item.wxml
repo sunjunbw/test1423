@@ -1,0 +1,9 @@
+  <template name="xm">
+     <view class='row'>
+         <checkbox-group bindchange="checkboxChange" data-index="{{index}}">
+                 <checkbox value="{{flag}}" checked="{{flag}}"/>
+          </checkbox-group>
+        {{txt}} 
+        <button bindtap='del' data-index="{{index}}">delete</button>
+        </view>
+  </template>
